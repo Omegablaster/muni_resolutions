@@ -1,0 +1,166 @@
+.row
+  #wizard(rc-wizard="write")
+    .col-lg-12.tab-content
+      #first.tab-pane.active(rc-step)
+        .page-header 
+          h1 About the Resolution
+            small  Committee, Sponsors and Signatories
+        .form-group
+          h5 First select the delegation you are representing.
+          select.form-control(required, ng-model="resolution.country", ng-change="selectCountry()", ng-options="country.name for country in countries")
+            option(value="", display="none", disabled, selected) Select..
+        .form-group(ng-show="resolution.country")
+          h5 Now select the committee this resolution is intended for.
+          select.form-control(required,  ng-model="resolution.committee", ng-change="selectCommittee()", ng-options="comm.name for comm in committees")
+            option(value="", display="none", disabled, selected) Select..
+        .form-group(ng-show="resolution.committee")
+          h5 Finally, Select the topic being addressed by this resolution.
+            select.form-control(required,  ng-model="resolution.topic", ng-options="topic.name for topic in topics")
+              option(value="", display="none", disabled, selected) Select..
+        .row(ng-show="resolution.topic")
+          .col-lg-6
+            h4 Sponsors
+            .panel.panel-default
+              .panel-heading
+                .row
+                  .col-lg-10.col-lg-offset-1
+                    b {{resolution.country.name}}
+              ul.list-group.sortable-list(ui-sortable='sortableOptions', ng-model="resolution.sponsors")
+                li.list-group-item(ng-repeat='sponsor in resolution.sponsors')
+                  .row
+                    .col-lg-1
+                      i.glyphicon.glyphicon-th
+                    .col-lg-10
+                      b {{sponsor.name}}
+                    .col-lg-1
+                      a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.sponsors)")
+                        i.glyphicon.glyphicon-remove
+            .row
+              form(name="sponsor-form", ng-submit="addSponsor()")
+                .col-lg-8.col-lg-offset-1
+                  select.form-control(ng-model="newSponsor", ng-options="country.name for country in countries | filter:alreadyAdded(resolution.signatories) | filter:alreadyAdded(resolution.sponsors) | filter:{name: '!'+resolution.country.name}", required)
+                    option(value="", display="none", disabled, selected) Select..
+                .col-lg-1
+                  input.btn.btn-primary(type="submit", value="Add Sponsor")    
+          .col-lg-6
+            h4 Signatories
+            ul.list-group.sortable-list(ui-sortable='sortableOptions', ng-model="resolution.signatories")
+              li.list-group-item(ng-repeat='signatory in resolution.signatories')
+                .row
+                  .col-lg-1
+                    i.glyphicon.glyphicon-th
+                  .col-lg-10
+                    b {{signatory.name}}
+                  .col-lg-1
+                    a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.signatories)")
+                      i.glyphicon.glyphicon-remove
+            .row
+              form(name="signatory-form", ng-submit="addSignatory()")
+                .col-lg-8.col-lg-offset-1
+                  select.form-control(ng-model="newSignatory", ng-options="country.name for country in countries | filter:alreadyAdded(resolution.signatories) | filter:alreadyAdded(resolution.sponsors) | filter:{name: '!'+resolution.country.name}", required)
+                    option(value="", display="none", disabled, selected) Select..
+                .col-lg-1
+                  input.btn.btn-primary(type="submit", value="Add Signatory")  
+      #second.tab-pane(rc-step)
+        .page-header 
+          h1 Preambulatory Clauses
+
+        .row
+          .alert.alert-warning(ng-show="resolution.preambs.length == 0") Please add at least one preambulatory clause before continuing
+
+          ul.list-group.sortable-list(ui-sortable="sortableOptions", ng-model="resolution.preambs")
+            li.list-group-item(ng-repeat="preamb in resolution.preambs")
+              .row
+                .col-lg-1
+                  i.glyphicon-th.glyphicon
+                .col-lg-10
+                  p
+                    i {{preamb.phrase}}    
+                    {{preamb.text}}
+                .col-lg-1
+                  a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.preambs)")
+                        i.glyphicon.glyphicon-remove
+
+          form(name='preamb-form', ng-submit="addPreamb()")
+            .col-xs-4.form-group
+              select.form-control#phrase(ng-model="newPreamb.phrase", name="phrase", ng-options="p for p in preambPhrases", required)
+                option(value="", display="none", disabled, selected) Select..
+              label(for='phrase') Phrase
+            .col-xs-7.form-group
+              input.form-control#clause-text(type='text', name="text", ng-model="newPreamb.text", required)
+              label(for='clause-text') Text of Clause
+            .col-xs-1
+              input.btn.btn-primary(ng-disabled="preamb-form.$invalid", type="submit", value="Add Clause")
+      
+      #third.tab-pane(rc-step)
+        .page-header
+          h1 Operative Clauses
+
+        .row
+          .alert.alert-warning(ng-show="resolution.preambs.length >= resolution.ops.length") 
+            b Note:
+            |  There must be more operative clauses than preambulatory clauses for a resolution to be valid.
+
+          ul.list-group.sortable-list(ui-sortable="sortableOptions", ng-model="resolution.ops")
+            li.list-group-item(ng-repeat="op in resolution.ops")
+              .row
+                .col-lg-1
+                  i.glyphicon-th.glyphicon
+                .col-lg-10
+                  p
+                    i {{op.phrase}}    
+                    {{op.text}}
+                  ul.roman-list
+                    li(ng-repeat="subclause in op.subclauses") {{subclause}}
+                .col-lg-1
+                  a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.ops)")
+                        i.glyphicon.glyphicon-remove
+
+          form(name='op-form', ng-submit="addOp()")
+            .col-xs-4.form-group
+              select.form-control#phrase(ng-model="newOp.phrase", name="phrase", ng-options="p for p in opPhrases", required)
+                option(value="", display="none", disabled, selected) Select..
+              label(for='phrase') Phrase
+            .col-xs-7.form-group
+              input.form-control#clause-text(type='text', name="text", ng-model="newOp.text", required)
+              label(for='clause-text') Text of Clause
+            .col-xs-1
+              input.btn.btn-primary(ng-disabled="op-form.$invalid", type="submit", value="Add Clause")
+          .col-lg-8.col-lg-offset-4
+            .panel.panel-default
+              .panel-heading 
+                h3.panel-title Subclauses
+              p.text-muted.text-center(ng-show="newOp.subclauses.length == 0") Add subclauses below
+              ul.sortable-list.list-group(ui-sortable="sortableOptions", ng-model="newOp.subclauses")
+                li.list-group-item(ng-repeat="subclause in newOp.subclauses")
+                  .row
+                    .col-lg-1
+                      i.glyphicon-th.glyphicon
+                    .col-lg-10
+                      p {{subclause}}
+                    .col-lg-1
+                      a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, newOp.subclauses)")
+                        i.glyphicon.glyphicon-remove
+            form(name="subclause-form-new", ng-submit="addSubclause(newSubclause, newOp)")
+              .col-xs-10.col-xs-offset-1.form-group
+                input.form-control(type='text', name="text", ng-model="newSubclause", required)
+              .col-xs-1
+                input.btn.btn-primary(ng-disabled="subclause-form-new.$invalid", type="submit", value="Add Subclause")
+    nav.navbar.navbar-default.navbar-fixed-bottom.bottom
+      ul.navbar-text.rc-nav-wizard.pull-left
+        li
+          a.active(href="#first", data-toggle="tab")
+            span About The Resolution
+        li
+          a(href="#second", data-toggle="tab")
+            span Preambulatory Clauses
+        li
+          a(href="#third", data-toggle="tab")
+            span Operative Clauses
+      form.navbar-form.pull-right
+        .btn-group
+          a.btn.btn-default(ng-click="rc.write.backward()", ng-show="rc.write.currentIndex > rc.write.firstIndex") Back
+          a.btn.btn-primary(ng-click="rc.write.forward()", ng-show="rc.write.currentIndex == 0", ng-disabled="!resolution.topic") Continue
+          a.btn.btn-primary(ng-click="rc.write.forward()", ng-show="rc.write.currentIndex == 1", ng-disabled="resolution.preambs.length == 0") Continue
+          a.btn.btn-success(ng-click="generate()") Finish
+//-ng-show="rc.write.currentIndex == 2", ng-disabled="resolution.preambs.length >= resolution.ops.length"

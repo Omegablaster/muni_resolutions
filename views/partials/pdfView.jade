@@ -1,0 +1,9 @@
+.modal-header
+	button.close(type="button", ng-click="close()", aria-hidden="true") &times;
+	h4.modal-title Your Resolution.
+.modal-body
+	p(ng-show="!resolutionUrl") Generating PDF
+	{{resolutionUrl}}
+	pdf(src='{{resolutionUrl}}')
+.modal-footer
+	a.btn.btn-lrg.btn-success(ng-disable="!resolutionUrl", href="{{resolutionUrl}}") Download PDF
