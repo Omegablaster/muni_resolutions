@@ -171,8 +171,8 @@ function WriteCtrl($scope, $http, $modal) {
 	$scope.newOp.subclauses = [];
 
   	$scope.resolution = {};
-  	$scope.resolution.country = "USA";
-  	$scope.resolution.committee = "DISEC";
+  	$scope.resolution.country = null;
+  	$scope.resolution.committee = null;
   	$scope.resolution.sponsors = [];
   	$scope.resolution.signatories = [];
   	$scope.resolution.preambs = [];
