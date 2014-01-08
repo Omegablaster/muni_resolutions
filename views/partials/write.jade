@@ -162,5 +162,4 @@
           a.btn.btn-default(ng-click="rc.write.backward()", ng-show="rc.write.currentIndex > rc.write.firstIndex") Back
           a.btn.btn-primary(ng-click="rc.write.forward()", ng-show="rc.write.currentIndex == 0", ng-disabled="!resolution.topic") Continue
           a.btn.btn-primary(ng-click="rc.write.forward()", ng-show="rc.write.currentIndex == 1", ng-disabled="resolution.preambs.length == 0") Continue
-          a.btn.btn-success(ng-click="generate()") Finish
-//-ng-show="rc.write.currentIndex == 2", ng-disabled="resolution.preambs.length >= resolution.ops.length"
+          a.btn.btn-success(ng-click="generate()", ng-show="rc.write.currentIndex == 2", ng-disabled="resolution.preambs.length >= resolution.ops.length") Finish

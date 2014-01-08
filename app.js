@@ -10,6 +10,7 @@ var express = require('express'),
   wkhtmltopdf = require('wkhtmltopdf'),
   mongoose = require('mongoose'),
   fs = require('fs'),
+  mkdirp = require('mkdirp'),
   path = require('path');
 
 
@@ -20,7 +21,7 @@ var app = module.exports = express();
 */
 
 // all environments
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 5000);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(express.logger('dev'));
@@ -51,6 +52,12 @@ app.get('/api/name', api.name);
 app.get('/api/countries', api.countries);
 
 app.post('/api/pdf', express.bodyParser(), function(req, response){
+  //Check for Uploads directory
+  mkdirp(__dirname + '/uploads', function (err) {
+    if (err) console.error(err)
+    else console.log('Uploads directory created');
+  });
+
 	var url = '/uploads/resolution-' + process.pid + '.pdf';
 	var html = '<html><body>' + req.body.html + '</body></html>';
 	wkhtmltopdf(html, { pageSize: 'letter' }, function(code, signal){
