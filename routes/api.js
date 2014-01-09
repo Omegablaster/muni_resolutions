@@ -11,6 +11,10 @@ exports.countries = function (req, res) {
   				name: 'UK',
   				committees: [{name: 'DISEC', topics: [{name: "DISEC Topic 1"}, {name: "DISEC Topic 2"}]}, {name: 'SOCHUM', topics: [{name: "SOCHUM Topic 1"}, {name: "SOCHUM Topic 2"}]}],
   			},
+        {
+          name: 'France',
+          committees: [{name: 'DISEC', topics: [{name: "DISEC Topic 1"}, {name: "DISEC Topic 2"}]}, {name: 'SOCHUM', topics: [{name: "SOCHUM Topic 1"}, {name: "SOCHUM Topic 2"}]}],
+        },
   			]);
 };
 

@@ -36,7 +36,7 @@
                       a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.sponsors)")
                         i.glyphicon.glyphicon-remove
             .row
-              form(name="sponsor-form", ng-submit="addSponsor()")
+              form(name="sponsor-form", ng-submit="resolution.addSponsor(newSponsor)")
                 .col-lg-8.col-lg-offset-1
                   select.form-control(ng-model="newSponsor", ng-options="country.name for country in countries | filter:alreadyAdded(resolution.signatories) | filter:alreadyAdded(resolution.sponsors) | filter:{name: '!'+resolution.country.name}", required)
                     option(value="", display="none", disabled, selected) Select..
@@ -55,7 +55,7 @@
                     a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.signatories)")
                       i.glyphicon.glyphicon-remove
             .row
-              form(name="signatory-form", ng-submit="addSignatory()")
+              form(name="signatory-form", ng-submit="resolution.addSignatory(newSignatory)")
                 .col-lg-8.col-lg-offset-1
                   select.form-control(ng-model="newSignatory", ng-options="country.name for country in countries | filter:alreadyAdded(resolution.signatories) | filter:alreadyAdded(resolution.sponsors) | filter:{name: '!'+resolution.country.name}", required)
                     option(value="", display="none", disabled, selected) Select..
@@ -81,7 +81,7 @@
                   a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.preambs)")
                         i.glyphicon.glyphicon-remove
 
-          form(name='preamb-form', ng-submit="addPreamb()")
+          form(name='preamb-form', ng-submit="resolution.addPreamb(newPreamb)")
             .col-xs-4.form-group
               select.form-control#phrase(ng-model="newPreamb.phrase", name="phrase", ng-options="p for p in preambPhrases", required)
                 option(value="", display="none", disabled, selected) Select..
@@ -116,7 +116,7 @@
                   a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.ops)")
                         i.glyphicon.glyphicon-remove
 
-          form(name='op-form', ng-submit="addOp()")
+          form(name='op-form', ng-submit="resolution.addOp(newOp, newSubclause)")
             .col-xs-4.form-group
               select.form-control#phrase(ng-model="newOp.phrase", name="phrase", ng-options="p for p in opPhrases", required)
                 option(value="", display="none", disabled, selected) Select..
@@ -162,4 +162,4 @@
           a.btn.btn-default(ng-click="rc.write.backward()", ng-show="rc.write.currentIndex > rc.write.firstIndex") Back
           a.btn.btn-primary(ng-click="rc.write.forward()", ng-show="rc.write.currentIndex == 0", ng-disabled="!resolution.topic") Continue
           a.btn.btn-primary(ng-click="rc.write.forward()", ng-show="rc.write.currentIndex == 1", ng-disabled="resolution.preambs.length == 0") Continue
-          a.btn.btn-success(ng-click="generate()", ng-show="rc.write.currentIndex == 2", ng-disabled="resolution.preambs.length >= resolution.ops.length") Finish
+          a.btn.btn-success(ng-click="resolution.generate()", ng-show="rc.write.currentIndex == 2", ng-disabled="resolution.preambs.length >= resolution.ops.length") Finish

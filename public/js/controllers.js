@@ -12,7 +12,7 @@ function AppCtrl($scope, $http) {
   });
 }
 
-function WriteCtrl($scope, $http, $modal) {
+function WriteCtrl($scope, $http, $modal, resolution) {
 
 	$http({method: 'GET', url: '/api/countries'}).
   		success(function(data, status, headers, config) {
@@ -40,39 +40,15 @@ function WriteCtrl($scope, $http, $modal) {
   		$scope.topics = $scope.resolution.committee.topics;
   	}
 
-  	$scope.addSponsor = function(){
-  		$scope.resolution.sponsors.push($scope.newSponsor);
-  		$scope.newSponsor = null;
-  	}
-
-  	$scope.addSignatory = function(){
-  		$scope.resolution.signatories.push($scope.newSignatory);
-  		$scope.newSignatory = null;
-  	}
-
   	$scope.alreadyAdded = function(array){
         return function(item) {
             return (array.indexOf(item) == -1);
         }
   	}
 
-  	$scope.addPreamb = function(){
-  		$scope.resolution.preambs.push(angular.copy($scope.newPreamb));
-  		$scope.newPreamb.phrase = null;
-  		$scope.newPreamb.text = '';
-  	}
-
-  	$scope.addOp = function(){
-  		$scope.resolution.ops.push(angular.copy($scope.newOp));
-  		$scope.newOp.phrase = null;
-  		$scope.newOp.text = '';
-  		$scope.newOp.subclauses = [];
-  		$scope.newSubclause = '';
-  	}
-
   	$scope.addSubclause = function(subclause, clause){
   		clause.subclauses.push(angular.copy(subclause));
-  		$scope.newSubclause = '';
+  		subclause = '';
   	}
 
 
@@ -80,13 +56,8 @@ function WriteCtrl($scope, $http, $modal) {
 	$scope.newOp = {};
 	$scope.newOp.subclauses = [];
 
-  	$scope.resolution = {};
-  	$scope.resolution.country = null;
-  	$scope.resolution.committee = null;
-  	$scope.resolution.sponsors = [];
-  	$scope.resolution.signatories = [];
-  	$scope.resolution.preambs = [];
-  	$scope.resolution.ops = [];
+  	$scope.resolution = resolution;
+  	
 
 	$scope.deleteItem = function(index, sourceArray){
       	sourceArray.splice(index, 1);
@@ -108,20 +79,8 @@ function WriteCtrl($scope, $http, $modal) {
 	  axis: 'y',
 	  placeholder: "list-group-item faded"
 	};
-
-	$scope.generate = function(){
-		var modalInstance = $modal.open({
-      		templateUrl: 'partial/pdfView',
-      		controller: pdfModalCtrl,
-      		resolve: {
-        		resolution: function () {
-          			return angular.copy($scope.resolution);
-        		}
-      		}
-		});
-	}
 }
-WriteCtrl.$inject = ['$scope', '$http', '$modal'];
+WriteCtrl.$inject = ['$scope', '$http', '$modal', 'resolution'];
 
 
 function pdfModalCtrl($scope, $modalInstance, resolution, $timeout, $http) {
