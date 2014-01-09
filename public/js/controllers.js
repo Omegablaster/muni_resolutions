@@ -22,6 +22,16 @@ function WriteCtrl($scope, $http, $modal) {
     		$scope.countries = 'Error!'
   		});
 
+  	$http.get('/api/phrases').then(
+  		function(response) {
+			$scope.preambPhrases = response.data.preambulatory;
+			$scope.opPhrases = response.data.operative;
+        }, 
+        function(response) { // optional
+            console.log(response);
+        }
+    );
+
   	$scope.selectCountry = function(){
   		$scope.committees = $scope.resolution.country.committees;
   	}
@@ -65,106 +75,6 @@ function WriteCtrl($scope, $http, $modal) {
   		$scope.newSubclause = '';
   	}
 
-	$scope.preambPhrases = [
-						"Affirming",
-						"Alarmed by",
-						"Approving",
-						"Bearing in mind",
-						"Believing",
-						"Confident",
-						"Contemplating",
-						"Convinced",
-						"Declaring",
-						"Deeply concerned",
-						"Deeply conscious",
-						"Deeply convinced",
-						"Deeply Disturbed",
-						"Deeply Regretting",
-						"Desiring",
-						"Emphasizing",
-						"Expecting",
-						"Emphasizing",
-						"Expecting",
-						"Expressing it’s appreciation",
-						"Fulfilling",
-						"Fully aware",
-						"Emphasizing",
-						"Expecting",
-						"Expressing it’s appreciation",
-						"Fulfilling",
-						"Fully aware",
-						"Further deploring",
-						"Further recalling",
-						"Guided by",
-						"Having adopted",
-						"Having considered",
-						"Having examined",
-						"Having received",
-						"Keeping in mind",
-						"Noting with deep concern",
-						"Nothing with satisfaction",
-						"Noting further",
-						"Observing",
-						"Reaffirming",
-						"Realizing",
-						"Recalling",
-						"Recognizing",
-						"Referring",
-						"Seeking",
-						"Taking into consideration",
-						"Taking note",
-						"Viewing with appreciation",
-						"Welcoming"
-						];
-
-	$scope.opPhrases = [
-						"Accepts",
-						"Affirms",
-						"Approves",
-						"Authorizes",
-						"Calls",
-						"Calls upon",
-						"Condemns",
-						"Confirms",
-						"Congratulates",
-						"Considers",
-						"Declares accordingly",
-						"Deplores",
-						"Designates",
-						"Draws the attention",
-						"Emphasizes Encourages",
-						"Endorses",
-						"Expresses its appreciation",
-						"Expresses its hope",
-						"Further invites",
-						"Deplores",
-						"Designates",
-						"Draws the attention",
-						"Emphasizes",
-						"Encourages",
-						"Endorses",
-						"Expresses its appreciation",
-						"Expresses its hope",
-						"Further invites",
-						"Further proclaims",
-						"Further reminds Further recommends",
-						"Further requests",
-						"Further resolves",
-						"Has resolved",
-						"Notes",
-						"Proclaims",
-						"Reaffirms",
-						"Recommends",
-						"Regrets",
-						"Reminds",
-						"Requests",
-						"Solemnly affirms",
-						"Strongly condemns",
-						"Supports",
-						"Takes note of",
-						"Transmits",
-						"Trusts"
-						];
 
 	$scope.newPreamb = {};
 	$scope.newOp = {};

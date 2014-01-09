@@ -1,13 +1,6 @@
 /*
  * Serve JSON to our AngularJS client
  */
-
-exports.name = function (req, res) {
-  res.json({
-  	name: 'Bob'
-  });
-};
-
 exports.countries = function (req, res) {
   res.json([
   			{
@@ -20,3 +13,106 @@ exports.countries = function (req, res) {
   			},
   			]);
 };
+
+exports.phrases = function (req, res) {
+  res.json({
+    preambulatory: [
+            "Affirming",
+            "Alarmed by",
+            "Approving",
+            "Bearing in mind",
+            "Believing",
+            "Confident",
+            "Contemplating",
+            "Convinced",
+            "Declaring",
+            "Deeply concerned",
+            "Deeply conscious",
+            "Deeply convinced",
+            "Deeply Disturbed",
+            "Deeply Regretting",
+            "Desiring",
+            "Emphasizing",
+            "Expecting",
+            "Emphasizing",
+            "Expecting",
+            "Expressing it’s appreciation",
+            "Fulfilling",
+            "Fully aware",
+            "Emphasizing",
+            "Expecting",
+            "Expressing it’s appreciation",
+            "Fulfilling",
+            "Fully aware",
+            "Further deploring",
+            "Further recalling",
+            "Guided by",
+            "Having adopted",
+            "Having considered",
+            "Having examined",
+            "Having received",
+            "Keeping in mind",
+            "Noting with deep concern",
+            "Nothing with satisfaction",
+            "Noting further",
+            "Observing",
+            "Reaffirming",
+            "Realizing",
+            "Recalling",
+            "Recognizing",
+            "Referring",
+            "Seeking",
+            "Taking into consideration",
+            "Taking note",
+            "Viewing with appreciation",
+            "Welcoming"
+            ],
+    operative: [
+            "Accepts",
+            "Affirms",
+            "Approves",
+            "Authorizes",
+            "Calls",
+            "Calls upon",
+            "Condemns",
+            "Confirms",
+            "Congratulates",
+            "Considers",
+            "Declares accordingly",
+            "Deplores",
+            "Designates",
+            "Draws the attention",
+            "Emphasizes Encourages",
+            "Endorses",
+            "Expresses its appreciation",
+            "Expresses its hope",
+            "Further invites",
+            "Deplores",
+            "Designates",
+            "Draws the attention",
+            "Emphasizes",
+            "Encourages",
+            "Endorses",
+            "Expresses its appreciation",
+            "Expresses its hope",
+            "Further invites",
+            "Further proclaims",
+            "Further reminds Further recommends",
+            "Further requests",
+            "Further resolves",
+            "Has resolved",
+            "Notes",
+            "Proclaims",
+            "Reaffirms",
+            "Recommends",
+            "Regrets",
+            "Reminds",
+            "Requests",
+            "Solemnly affirms",
+            "Strongly condemns",
+            "Supports",
+            "Takes note of",
+            "Transmits",
+            "Trusts"]
+  })
+}

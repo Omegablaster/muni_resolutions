@@ -48,8 +48,8 @@ app.get('/', routes.index);
 app.get('/partial/:name', routes.partial);
 
 // JSON API
-app.get('/api/name', api.name);
 app.get('/api/countries', api.countries);
+app.get('/api/phrases', api.phrases);
 
 app.post('/api/pdf', express.bodyParser(), function(req, response){
   //Check for Uploads directory
