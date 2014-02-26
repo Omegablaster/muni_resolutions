@@ -1,6 +1,6 @@
 .row
   #wizard(rc-wizard="write")
-    .col-lg-12.tab-content
+    .col-xs-12.tab-content
       #first.tab-pane.active(rc-step)
         .page-header 
           h1 About the Resolution
@@ -18,48 +18,48 @@
             select.form-control(required,  ng-model="resolution.topic", ng-options="topic.name for topic in topics")
               option(value="", display="none", disabled, selected) Select..
         .row(ng-show="resolution.topic")
-          .col-lg-6
+          .col-xs-6
             h4 Sponsors
             .panel.panel-default
               .panel-heading
                 .row
-                  .col-lg-10.col-lg-offset-1
+                  .col-xs-11.col-xs-offset-1
                     b {{resolution.country.name}}
               ul.list-group.sortable-list(ui-sortable='sortableOptions', ng-model="resolution.sponsors")
                 li.list-group-item(ng-repeat='sponsor in resolution.sponsors')
                   .row
-                    .col-lg-1
+                    .col-xs-1
                       i.glyphicon.glyphicon-th
-                    .col-lg-10
+                    .col-xs-10
                       b {{sponsor.name}}
-                    .col-lg-1
-                      a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.sponsors)")
-                        i.glyphicon.glyphicon-remove
+                      .pull-right
+                        a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.sponsors)")
+                          i.glyphicon.glyphicon-remove
             .row
               form(name="sponsor-form", ng-submit="resolution.addSponsor(newSponsor)")
-                .col-lg-8.col-lg-offset-1
+                .col-xs-8.col-lg-offset-1
                   select.form-control(ng-model="newSponsor", ng-options="country.name for country in countries | filter:alreadyAdded(resolution.signatories) | filter:alreadyAdded(resolution.sponsors) | filter:{name: '!'+resolution.country.name}", required)
                     option(value="", display="none", disabled, selected) Select..
-                .col-lg-1
+                .col-xs-1
                   input.btn.btn-primary(type="submit", value="Add Sponsor")    
-          .col-lg-6
+          .col-xs-6
             h4 Signatories
             ul.list-group.sortable-list(ui-sortable='sortableOptions', ng-model="resolution.signatories")
               li.list-group-item(ng-repeat='signatory in resolution.signatories')
                 .row
-                  .col-lg-1
+                  .col-xs-1
                     i.glyphicon.glyphicon-th
-                  .col-lg-10
+                  .col-xs-10
                     b {{signatory.name}}
-                  .col-lg-1
-                    a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.signatories)")
-                      i.glyphicon.glyphicon-remove
+                    .pull-right
+                      a.btn.btn-danger.btn-xs(ng-click="deleteItem($index, resolution.signatories)")
+                        i.glyphicon.glyphicon-remove
             .row
               form(name="signatory-form", ng-submit="resolution.addSignatory(newSignatory)")
-                .col-lg-8.col-lg-offset-1
+                .col-xs-8.col-xs-offset-1
                   select.form-control(ng-model="newSignatory", ng-options="country.name for country in countries | filter:alreadyAdded(resolution.signatories) | filter:alreadyAdded(resolution.sponsors) | filter:{name: '!'+resolution.country.name}", required)
                     option(value="", display="none", disabled, selected) Select..
-                .col-lg-1
+                .col-xs-1
                   input.btn.btn-primary(type="submit", value="Add Signatory")  
       #second.tab-pane(rc-step)
         .page-header 
@@ -71,21 +71,21 @@
           ul.list-group.sortable-list(ui-sortable="sortableOptions", ng-model="resolution.preambs")
             li.list-group-item(ng-repeat="preamb in resolution.preambs")
               .row
-                .col-lg-1
+                .col-xs-1
                   i.glyphicon-th.glyphicon
-                .col-lg-10
-                  p
+                .col-xs-11
+                  p.pull-left
                     i {{preamb.phrase}}    
                     {{preamb.text}}
-                .col-lg-1
-                  a.btn.btn-warning.btn-xs(ng-click="editPreamb($index)")
-                    i.glyphicon.glyphicon-edit
-                  a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.preambs)")
-                        i.glyphicon.glyphicon-remove
+                  .pull-right
+                    a.btn.btn-warning.btn-xs.edit(ng-click="editPreamb($index)")
+                      i.glyphicon.glyphicon-edit
+                    a.btn.btn-danger.btn-xs.pull-right.delete(ng-click="deleteItem($index, resolution.preambs)")
+                          i.glyphicon.glyphicon-remove
 
           form(name='preamb-form', ng-submit="resolution.addPreamb(newPreamb)")
             .col-xs-4.form-group
-              input.form-control#phrase(type="text", ng-model="newPreamb.phrase", name="phrase", typeahead="p for p in preambPhrases | filter:$viewValue | limitTo:8", required)
+              input.form-control#phrase(type="text", ng-model="newPreamb.phrase", name="phrase", typeahead="p for p in preambPhrases | filter:$viewValue | limitTo:16", required)
                 option(value="", display="none", disabled, selected) Select..
               label(for='phrase') Phrase
             .col-xs-7.form-group
@@ -106,15 +106,15 @@
           ul.list-group.sortable-list(ui-sortable="sortableOptions", ng-model="resolution.ops")
             li.list-group-item(ng-repeat="op in resolution.ops")
               .row
-                .col-lg-1
+                .col-xs-1
                   i.glyphicon-th.glyphicon
-                .col-lg-10
+                .col-xs-10
                   p
                     i {{op.phrase}}    
                     {{op.text}}
                   ul.roman-list
                     li(ng-repeat="subclause in op.subclauses") {{subclause}}
-                .col-lg-1
+                .col-xs-1
                   a.btn.btn-warning.btn-xs(ng-click="editOp($index)")
                     i.glyphicon.glyphicon-edit
                   a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.ops)")
@@ -130,7 +130,7 @@
               label(for='clause-text') Text of Clause
             .col-xs-1
               input.btn.btn-primary(ng-disabled="op-form.$invalid", type="submit", value="Add Clause")
-          .col-lg-8.col-lg-offset-4
+          .col-xs-8.col-xs-offset-4
             .panel.panel-default
               .panel-heading 
                 h3.panel-title Subclauses
@@ -138,19 +138,19 @@
               ul.sortable-list.list-group(ui-sortable="sortableOptions", ng-model="newOp.subclauses")
                 li.list-group-item(ng-repeat="subclause in newOp.subclauses")
                   .row
-                    .col-lg-1
+                    .col-xs-1
                       i.glyphicon-th.glyphicon
-                    .col-lg-9
+                    .col-xs-9
                       p {{subclause}}
-                    .col-lg-2
+                    .col-xs-2
                       a.btn.btn-warning.btn-xs(ng-click="editSub($index)")
                         i.glyphicon.glyphicon-edit
                       a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, newOp.subclauses)")
                         i.glyphicon.glyphicon-remove
             form(name="subclause-form-new", ng-submit="addSubclause(newSubclause, newOp)")
-              .col-xs-10.col-xs-offset-1.form-group
+              .col-xs-10.form-group
                 input.form-control(type='text', name="text", ng-model="newSubclause", required)
-              .col-xs-1
+              .col-xs-2
                 input.btn.btn-primary(ng-disabled="subclause-form-new.$invalid", type="submit", value="Add Subclause")
     nav.navbar.navbar-default.navbar-fixed-bottom.bottom
       ul.navbar-text.rc-nav-wizard.pull-left

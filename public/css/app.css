@@ -68,6 +68,7 @@ a.orange:hover{
 	display: block;
 	font-size: 2.5em;
 	top: -10px;
+	margin: 0 auto;
 }
 
 .faded{
@@ -84,4 +85,8 @@ a.orange:hover{
 
 .roman-list{
 	list-style: lower-roman;
+}
+
+.edit{
+	margin-right: 5px;
 }
