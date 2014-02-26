@@ -16,7 +16,7 @@ var express = require('express'),
 
 var app = module.exports = express();
 
-mongoose.connect('mongodb://localhost/muni');
+//mongoose.connect('mongodb://localhost/muni');
 
 var models_path = __dirname + '/models';
 var walk = function(path) {
