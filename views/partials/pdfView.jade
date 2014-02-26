@@ -5,4 +5,4 @@
 	p(ng-show="!resolutionUrl") Generating PDF
 	pdf(src='{{resolutionUrl}}')
 .modal-footer
-	a.btn.btn-lrg.btn-success(ng-disable="!resolutionUrl", href="{{resolutionUrl}}") Download PDF
+	a.btn.btn-lrg.btn-success(ng-disable="!resolutionUrl", href="{{resolutionUrl}}", download="Resolution") Download PDF

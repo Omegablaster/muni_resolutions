@@ -12,6 +12,14 @@ angular.module('resolutions.services', []).
   	resolution.signatories = [];
   	resolution.preambs = [];
   	resolution.ops = [];
+    resolution.code = null;
+
+    resolution.save = function(){
+      var modalInstance = $modal.open({
+        templateUrl: 'partial/saveView',
+        controller: saveCtrl
+      });
+    }
 
   	resolution.addSponsor = function(newSponsor){
   		resolution.sponsors.push(newSponsor);

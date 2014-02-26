@@ -78,12 +78,14 @@
                     i {{preamb.phrase}}    
                     {{preamb.text}}
                 .col-lg-1
+                  a.btn.btn-warning.btn-xs(ng-click="editPreamb($index)")
+                    i.glyphicon.glyphicon-edit
                   a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.preambs)")
                         i.glyphicon.glyphicon-remove
 
           form(name='preamb-form', ng-submit="resolution.addPreamb(newPreamb)")
             .col-xs-4.form-group
-              select.form-control#phrase(ng-model="newPreamb.phrase", name="phrase", ng-options="p for p in preambPhrases", required)
+              input.form-control#phrase(type="text", ng-model="newPreamb.phrase", name="phrase", typeahead="p for p in preambPhrases | filter:$viewValue | limitTo:8", required)
                 option(value="", display="none", disabled, selected) Select..
               label(for='phrase') Phrase
             .col-xs-7.form-group
@@ -113,12 +115,14 @@
                   ul.roman-list
                     li(ng-repeat="subclause in op.subclauses") {{subclause}}
                 .col-lg-1
+                  a.btn.btn-warning.btn-xs(ng-click="editOp($index)")
+                    i.glyphicon.glyphicon-edit
                   a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, resolution.ops)")
                         i.glyphicon.glyphicon-remove
 
           form(name='op-form', ng-submit="resolution.addOp(newOp, newSubclause)")
             .col-xs-4.form-group
-              select.form-control#phrase(ng-model="newOp.phrase", name="phrase", ng-options="p for p in opPhrases", required)
+              input.form-control#phrase(type="text", ng-model="newOp.phrase", name="phrase", typeahead="p for p in opPhrases | filter:$viewValue | limitTo:8", required)
                 option(value="", display="none", disabled, selected) Select..
               label(for='phrase') Phrase
             .col-xs-7.form-group
@@ -136,9 +140,11 @@
                   .row
                     .col-lg-1
                       i.glyphicon-th.glyphicon
-                    .col-lg-10
+                    .col-lg-9
                       p {{subclause}}
-                    .col-lg-1
+                    .col-lg-2
+                      a.btn.btn-warning.btn-xs(ng-click="editSub($index)")
+                        i.glyphicon.glyphicon-edit
                       a.btn.btn-danger.btn-xs.pull-right(ng-click="deleteItem($index, newOp.subclauses)")
                         i.glyphicon.glyphicon-remove
             form(name="subclause-form-new", ng-submit="addSubclause(newSubclause, newOp)")
@@ -158,6 +164,9 @@
           a(href="#third", data-toggle="tab")
             span Operative Clauses
       form.navbar-form.pull-right
+        .btn-group
+          a.btn.btn-defalt(ng-click="resolution.save()") Save
+          a.btn.btn-defalt(ng-click="loadResolution()") Load
         .btn-group
           a.btn.btn-default(ng-click="rc.write.backward()", ng-show="rc.write.currentIndex > rc.write.firstIndex") Back
           a.btn.btn-primary(ng-click="rc.write.forward()", ng-show="rc.write.currentIndex == 0", ng-disabled="!resolution.topic") Continue

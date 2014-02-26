@@ -48,7 +48,7 @@ function WriteCtrl($scope, $http, $modal, resolution) {
 
   	$scope.addSubclause = function(subclause, clause){
   		clause.subclauses.push(angular.copy(subclause));
-  		subclause = '';
+  		$scope.newSubclause = '';
   	}
 
 
@@ -57,7 +57,18 @@ function WriteCtrl($scope, $http, $modal, resolution) {
 	$scope.newOp.subclauses = [];
 
   	$scope.resolution = resolution;
-  	
+
+	$scope.editPreamb = function(index){
+		$scope.newPreamb = $scope.resolution.preambs.splice(index, 1)[0]
+	}
+
+	$scope.editOp = function(index){
+		$scope.newOp = $scope.resolution.ops.splice(index, 1)[0]
+	}
+
+	$scope.editSub = function(index){
+		$scope.newSubclause = $scope.newOp.subclauses.splice(index, 1)[0]
+	}
 
 	$scope.deleteItem = function(index, sourceArray){
       	sourceArray.splice(index, 1);
@@ -95,8 +106,6 @@ function pdfModalCtrl($scope, $modalInstance, resolution, $timeout, $http) {
 		else
 			return countryList[0];		
 	}
-
-
 
 	var outputBuffer = "<p style='margin: 0px; margin-bottom:5px'><b>" + resolution.committee.name + "</b></p>";
 	
@@ -146,7 +155,7 @@ function pdfModalCtrl($scope, $modalInstance, resolution, $timeout, $http) {
 				$scope.resolutionUrl = response.data.message;
 			}, 1000);
         }, 
-        function(response) { // optional
+        function(response) {
             console.log(response);
         });
 
@@ -155,6 +164,25 @@ function pdfModalCtrl($scope, $modalInstance, resolution, $timeout, $http) {
   	};
 }
 pdfModalCtrl.$inject = ['$scope', '$modalInstance', 'resolution', '$timeout', '$http']
+
+
+function saveCtrl($scope, $modalInstance, resolution, $timeout, $http) {
+	console.log(resolution);
+
+	$http.post('/api/save', {resolution: resolution}).then(
+		function(response) {
+			
+		},
+		function(response) {
+			console.log(response);
+		}
+	)
+
+	$scope.close = function () {
+    	$modalInstance.dismiss('Closed');
+  	};
+}
+saveCtrl.$inject = ['$scope', '$modalInstance', 'resolution', '$timeout', '$http']
 
 function LearnCtrl() {
 }
