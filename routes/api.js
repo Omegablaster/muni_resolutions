@@ -66,7 +66,8 @@ exports.phrases = function (req, res) {
             "Taking into consideration",
             "Taking note",
             "Viewing with appreciation",
-            "Welcoming"
+            "Welcoming",
+            "Shreking"
             ],
     operative: [
             "Accepts",
@@ -112,6 +113,7 @@ exports.phrases = function (req, res) {
             "Supports",
             "Takes note of",
             "Transmits",
-            "Trusts"]
+            "Trusts",
+            "Shreking"]
   })
 }
