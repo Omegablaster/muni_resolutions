@@ -8,5 +8,6 @@ angular.module('resolutions', ['resolutions.filters', 'resolutions.services', 'r
     $routeProvider.when('/learn', {templateUrl: 'partial/learn', controller: LearnCtrl});
     $routeProvider.when('/admin', {templateUrl: 'partial/admin', controller: AdminCtrl})
     $routeProvider.when('/', {templateUrl: 'partial/home', controller: HomeCtrl});
+    $routeProvider.otherwise({templateUrl: 'partial/404'});
     $locationProvider.html5Mode(true);
   }]);
