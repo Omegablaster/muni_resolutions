@@ -12,9 +12,80 @@ function AppCtrl($scope, $http) {
   });
 }
 
+function AdminCtrl($scope, $http, $modal) {
+
+	var view_template = "<a target='_blank' href='{{row.getProperty(col.field)}}' class='btn btn-primary btn-sm btn-block'>View</a>";
+
+	var format = function(resolutions){
+		var output = [];
+		var getName = function(entry){return entry.name;}
+		var preambToHTML = function(clause){return clause.phrase + ' ' + clause.text + ","}
+		var opToHTML = function(clause){return clause.phrase + ' ' + clause.text + " (and " + clause.subclauses.length + " subclauses),"}
+		var pream
+		for(var i in resolutions){
+			var current = resolutions[i].resolution;
+			var new_entry = {};
+			new_entry.Author = current.country.name;
+			new_entry.Committee = current.committee.name;
+			new_entry.Topic = current.topic.name;
+			new_entry.Sponsors = current.sponsors.map(getName).join(", ");
+			new_entry.Signatories = current.signatories.map(getName).join(", ");
+			new_entry.Preambulatories = current.preambs.map(preambToHTML).join("\n");
+			new_entry.Operatives = current.ops.map(opToHTML).join("\n");
+			new_entry.View = '/uploads/resolution-' + resolutions[i]._id + '.pdf';
+			output.push(new_entry);
+		}
+		return output;
+	}
+
+	$scope.gridOptions = { showGroupPanel: true, data: 'resolutions', 
+	columnDefs:[
+		{field: 'Author'},
+		{field: 'Committee'},
+		{field: 'Topic'},
+		{field: 'Sponsors'},
+		{field: 'Signatories'},
+		{field: 'Preambulatories', cellTemplate: "<div>{{row.getProperty(col.field)}}</div>"},
+		{field: 'Operatives'},
+		{field: 'View', displayName: '', cellTemplate: view_template, width: '60px', height: '35px'}
+	]};
+	$http.get('/api/allres').then(
+		function(response){
+			console.log(response);
+			console.log
+			$scope.resolutions = format(response.data.message);
+			if (!$scope.$$phase) {
+               	$scope.$apply();
+            }  
+		},
+		function(response){
+			console.log(response);
+		}
+	);
+}
+AdminCtrl.$inject = ['$scope', '$http', '$modal'];
+
 function WriteCtrl($scope, $http, $modal, resolution) {
 
-	$http({method: 'GET', url: '/api/countries'}).
+	$scope.$on('resolution.update', function () {
+		$scope.resolution = resolution;
+
+		var countryIndex = -1;
+		for(var i in $scope.countries) if ($scope.countries[i].name == resolution.country.name) countryIndex = i 
+		$scope.resolution.country = $scope.countries[countryIndex];
+
+		$scope.selectCountry();
+		var committeeIndex = -1;
+		for(var i in $scope.committees) if ($scope.committees[i].name == resolution.committee.name) committeeIndex = i
+		$scope.resolution.committee = $scope.committees[committeeIndex];
+
+		$scope.selectCommittee();
+		var topicIndex = -1;
+		for(var i in $scope.topics) if ($scope.topics[i].name == resolution.topic.name) topicIndex = i;
+		$scope.resolution.topic = $scope.topics[topicIndex];
+    });
+
+	$http({method: 'GET', url: '/json/assignments_final.json'}).
   		success(function(data, status, headers, config) {
     		$scope.countries = data;
  		}).
@@ -80,6 +151,13 @@ function WriteCtrl($scope, $http, $modal, resolution) {
 		return;
 	}
 
+	$scope.loadResolution = function(){
+		var modalInstance = $modal.open({
+        	templateUrl: 'partial/loadView',
+        	controller: loadCtrl
+      	});
+	}
+
 	$scope.sortableOptions = {
 	  update: function(e, ui) {
 	    if (ui.item.scope().item == "can't be moved") {
@@ -95,69 +173,25 @@ WriteCtrl.$inject = ['$scope', '$http', '$modal', 'resolution'];
 
 
 function pdfModalCtrl($scope, $modalInstance, resolution, $timeout, $http) {
-
-	var countryString = function(countryList){
-		if(countryList.length > 1){
-			var last = countryList.pop();
-			var rest = countryList.join(", ");
-			return rest + " and " + last;
-		}else if (countryList.length == 0)
-			return "None :(";
-		else
-			return countryList[0];		
-	}
-
-	var outputBuffer = "<p style='margin: 0px; margin-bottom:5px'><b>" + resolution.committee.name + "</b></p>";
-	
-	var getName = function(elem){return elem.name};
-	resolution.sponsors.unshift(resolution.country);
-	var sponsorsString = "Sponsors: ";
-	var signatoriesString = "Signatories: ";
-
-	if(resolution.sponsors.length > 0)
-	 	sponsorsString = sponsorsString + countryString(resolution.sponsors.map(getName));
-
-	if(resolution.signatories.length > 0)
-		signatoriesString = signatoriesString + countryString(resolution.signatories.map(getName));
-
-	outputBuffer = outputBuffer + "<p style='margin: 0px'>" + sponsorsString + "</p><p style='margin: 0px'>" + signatoriesString + "</p><p> Topic: \"" + resolution.topic.name + "\"</p>";
-
-	//Preambulatory
-	var preambToHTML = function(clause){return "<li><span style='text-decoration:underline;'>" + clause.phrase + "</span> " + clause.text + ",</li>"}
-	outputBuffer = outputBuffer + "<ul style='list-style:none'>" + resolution.preambs.map(preambToHTML).join("") + "</ul>";
-
-	//Operative
-	var opToHTML = function(clause, index){
-		var isLast = (index == (resolution.ops.length - 1));		
-		var body = "<span style='text-decoration:underline;'>" + clause.phrase + "</span> " + clause.text;
-		if(clause.subclauses.length > 0){
-			var subclauses = "";
-			var lastSubclause = clause.subclauses.pop();
-			for(var i = 0; i < clause.subclauses.length; i++){
-				subclauses = subclauses + "<li>" + clause.subclauses[i] + ";</li>";
-			}
-			subclauses = subclauses + "<li>" + lastSubclause + ((isLast) ? "." : ";") + "</li>"
-
-			return "<li>" + body + ";<ol type='i'>" + subclauses + "</ol>";
-		}else
-			return "<li>" + body + ((isLast) ? "." : ";") + "</li>";	
-	}
-
-	outputBuffer = outputBuffer + "<ol>" + resolution.ops.map(opToHTML).join(""); + "</ol>";
-
-	console.log(outputBuffer);
-
 	$scope.resolutionUrl = null;
 
-	$http.post('/api/pdf', {html: outputBuffer}).then(
+	$http.post('/api/save', {resolution: resolution}).then(
 		function(response) {
-			$timeout(function(){
-				$scope.resolutionUrl = response.data.message;
-			}, 1000);
-        }, 
-        function(response) {
-            console.log(response);
-        });
+			resolution.setCode(response.data.message._id);
+			$http.post('/api/pdf', {resolution: resolution}).then(
+			function(response) {
+				$timeout(function(){
+					$scope.resolutionUrl = response.data.message;
+				}, 1000);
+	        }, 
+	        function(response) {
+	            console.log(response);
+	        });
+		},
+		function(response) {
+			console.log(response);
+		}
+	)
 
 	$scope.close = function () {
     	$modalInstance.dismiss('Closed');
@@ -171,10 +205,11 @@ function saveCtrl($scope, $modalInstance, resolution, $timeout, $http) {
 
 	$http.post('/api/save', {resolution: resolution}).then(
 		function(response) {
-			
+			resolution.setCode(response.data.message._id);
+			$scope.resolution = resolution;
 		},
 		function(response) {
-			console.log(response);
+			resolution.code = response.code;
 		}
 	)
 
@@ -183,6 +218,27 @@ function saveCtrl($scope, $modalInstance, resolution, $timeout, $http) {
   	};
 }
 saveCtrl.$inject = ['$scope', '$modalInstance', 'resolution', '$timeout', '$http']
+
+function loadCtrl($scope, $modalInstance, resolution, $timeout, $http){
+	$scope.load = function(code){
+		$http.post('/api/load', {code: code}).then(
+			function(response) {
+				resolution.load(response.data.message[0].resolution);
+				resolution.setCode(code);
+				$modalInstance.dismiss('Closed');
+
+			},
+			function(response) {
+				console.log("Error!")
+			}
+		)
+	}
+
+	$scope.close = function () {
+    	$modalInstance.dismiss('Closed');
+  	};
+}
+loadCtrl.$inject = ['$scope', '$modalInstance', 'resolution', '$timeout', '$http']
 
 function LearnCtrl() {
 }

@@ -1,0 +1,9 @@
+.modal-header
+	button.close(type="button", ng-click="close()", aria-hidden="true") &times;
+	h4.modal-title Load a Resolution
+.modal-body
+	h4 Enter the Resolution Code.
+	.form-group
+		input#res_code.form-control(type='text', ng-model="res_code")
+	button.btn.btn-primary.pull-right(type='button', ng-click="load(res_code)") Load Resolution
+.modal-footer

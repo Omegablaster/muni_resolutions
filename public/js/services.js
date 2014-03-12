@@ -2,7 +2,7 @@
 
 /* Services */
 angular.module('resolutions.services', []).
-  factory('resolution', ['$modal', function($modal){
+  factory('resolution', ['$modal', '$rootScope', function($modal, $rootScope){
   	var resolution = {};
 
   	//Set up initial state.	
@@ -19,6 +19,12 @@ angular.module('resolutions.services', []).
         templateUrl: 'partial/saveView',
         controller: saveCtrl
       });
+    }
+
+    resolution.load = function(new_res){
+      for(var k in new_res) resolution[k]=new_res[k];
+      console.log(resolution);
+      $rootScope.$broadcast('resolution.update', resolution);
     }
 
   	resolution.addSponsor = function(newSponsor){
@@ -44,6 +50,10 @@ angular.module('resolutions.services', []).
   		newOp.subclauses = [];
   		subclauseField = '';
   	}
+
+    resolution.setCode = function(newCode){
+      resolution.code = newCode;
+    }
 
   	resolution.generate = function(){
 		var modalInstance = $modal.open({

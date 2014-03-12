@@ -1,0 +1,4537 @@
+[
+    {
+        "committees": [], 
+        "name": "Yugoslavia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Afghanistan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Argentina"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Australia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Austria"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }
+        ], 
+        "name": "Bangladesh"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Belgium"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }
+        ], 
+        "name": "Bosnia and Herzegovina"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Brazil"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Canada"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Chad"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Chile"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "China"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Colombia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }
+        ], 
+        "name": "Congo, Dem. Rep."
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Cote d'Ivoire"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Cuba"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Czech Republic"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Denmark"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Ecuador"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Egypt, Arab Rep."
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Ethiopia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Finland"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "France"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Georgia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Germany"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }
+        ], 
+        "name": "Ghana"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Greece"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Hungary"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "India"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Indonesia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Iran, Islamic Rep."
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Iraq"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Ireland"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Israel"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Italy"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Japan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Jordan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Kazakhstan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Kenya"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Korea, Dem. Rep."
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Korea, Rep."
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Lithuania"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }
+        ], 
+        "name": "Libya"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Luxembourg"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Mali"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Mexico"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Morocco"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Myanmar"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Netherlands"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "New Zealand"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Pakistan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Peru"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }
+        ], 
+        "name": "Portugal"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Romania"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Russian Federation"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Rwanda"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Saudi Arabia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Singapore"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "South Africa"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "South Sudan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Spain"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Sweden"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Switzerland"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Syrian Arab Republic"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Tanzania"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Thailand"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }
+        ], 
+        "name": "Tunisia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Turkey"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Ukraine"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "United Kingdom"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "United States"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Venezuela, RB"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }
+        ], 
+        "name": "Vietnam"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Yemen, Rep."
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Azerbaijan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Bolivia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Bulgaria"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Burundi"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Costa Rica"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Dominican Republic"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Eritrea"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Guatemala"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Kuwait"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Lebanon"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Madagascar"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Malaysia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Nepal"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Niger"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Nigeria"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Norway"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Panama"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Paraguay"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Philippines"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Poland"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Serbia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Somalia"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Sri Lanka"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Sudan"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Uganda"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "United Arab Emirates"
+    }, 
+    {
+        "committees": [
+            {
+                "topics": [
+                    {
+                        "name": "On Curbing the Illicit Trade of Small Arms and Light Weapons"
+                    }, 
+                    {
+                        "name": "On the Use of Drone Aircraft in Combat"
+                    }
+                ], 
+                "name": "GA I - Disarmament and International Security Committee (DISEC)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Reforming Economies in the Wake of Political Upheaval"
+                    }, 
+                    {
+                        "name": "On Developing Eco-tourism"
+                    }
+                ], 
+                "name": "GA II - Economic and Financial Committee (ECOFIN)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On the Rights of Lesbian Gay Bisexual and Transgender Individuals"
+                    }, 
+                    {
+                        "name": "On Government Control and Surveillance of Communication and Media"
+                    }
+                ], 
+                "name": "GA III - Social, Humanitarian and Cultural Affairs Committee (SOCHUM)"
+            }, 
+            {
+                "topics": [
+                    {
+                        "name": "On Kurdish Autonomy"
+                    }, 
+                    {
+                        "name": "On Neo-colonialism in Africa"
+                    }
+                ], 
+                "name": "GA IV - Special Political and Decolonization Committee (SPECPOL)"
+            }
+        ], 
+        "name": "Zimbabwe"
+    }
+]
