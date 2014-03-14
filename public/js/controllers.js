@@ -25,6 +25,7 @@ function AdminCtrl($scope, $http, $modal) {
 		for(var i in resolutions){
 			var current = resolutions[i].resolution;
 			var new_entry = {};
+			new_entry.Code = resolutions[i]._id;
 			new_entry.Author = current.country.name;
 			new_entry.Committee = current.committee && current.committee.name;
 			new_entry.Topic = current.topic && current.topic.name;
@@ -40,6 +41,7 @@ function AdminCtrl($scope, $http, $modal) {
 
 	$scope.gridOptions = { showGroupPanel: true, data: 'res_formatted', 
 	columnDefs:[
+		{field: 'Code'},
 		{field: 'Author'},
 		{field: 'Committee'},
 		{field: 'Topic'},
@@ -195,6 +197,7 @@ function pdfModalCtrl($scope, $modalInstance, resolution, $timeout, $http) {
 	$http.post('/api/save', {resolution: resolution}).then(
 		function(response) {
 			resolution.setCode(response.data.message._id);
+			$scope.resolutionCode = response.data.message._id;
 			$http.post('/api/pdf', {resolution: resolution}).then(
 			function(response) {
 				$timeout(function(){
