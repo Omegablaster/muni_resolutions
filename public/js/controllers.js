@@ -14,7 +14,7 @@ function AppCtrl($scope, $http) {
 
 function AdminCtrl($scope, $http, $modal) {
 
-	var view_template = "<a target='_blank' href='{{row.getProperty(col.field)}}' class='btn btn-primary btn-sm btn-block'>View</a>";
+	var view_template = "<a target='_blank' ng-click='generate(row)' class='btn btn-primary btn-sm btn-block'>View</a>";
 
 	var format = function(resolutions){
 		var output = [];
@@ -26,19 +26,19 @@ function AdminCtrl($scope, $http, $modal) {
 			var current = resolutions[i].resolution;
 			var new_entry = {};
 			new_entry.Author = current.country.name;
-			new_entry.Committee = current.committee.name;
-			new_entry.Topic = current.topic.name;
+			new_entry.Committee = current.committee && current.committee.name;
+			new_entry.Topic = current.topic && current.topic.name;
 			new_entry.Sponsors = current.sponsors.map(getName).join(", ");
 			new_entry.Signatories = current.signatories.map(getName).join(", ");
 			new_entry.Preambulatories = current.preambs.map(preambToHTML).join("\n");
 			new_entry.Operatives = current.ops.map(opToHTML).join("\n");
-			new_entry.View = '/uploads/resolution-' + resolutions[i]._id + '.pdf';
+			new_entry.View = i;
 			output.push(new_entry);
 		}
 		return output;
 	}
 
-	$scope.gridOptions = { showGroupPanel: true, data: 'resolutions', 
+	$scope.gridOptions = { showGroupPanel: true, data: 'res_formatted', 
 	columnDefs:[
 		{field: 'Author'},
 		{field: 'Committee'},
@@ -49,11 +49,12 @@ function AdminCtrl($scope, $http, $modal) {
 		{field: 'Operatives'},
 		{field: 'View', displayName: '', cellTemplate: view_template, width: '60px', height: '35px'}
 	]};
+
 	$http.get('/api/allres').then(
 		function(response){
 			console.log(response);
-			console.log
-			$scope.resolutions = format(response.data.message);
+			$scope.resolutions = response.data.message
+			$scope.res_formatted = format($scope.resolutions);
 			if (!$scope.$$phase) {
                	$scope.$apply();
             }  
@@ -62,6 +63,22 @@ function AdminCtrl($scope, $http, $modal) {
 			console.log(response);
 		}
 	);
+
+	$scope.generate = function(row){
+		console.log(row);
+		var resolution = $scope.resolutions[row.rowIndex].resolution
+		console.log(resolution);
+		$http.post('/api/pdf', {resolution: resolution}).then(
+			function(response) {
+				console.log(response)
+				window.open(response.data.message,'_blank');
+	        }, 
+	        function(response) {
+	        	alert("Resolution not ready to be rendered");
+	            console.log(response);
+	        });
+	}
+
 }
 AdminCtrl.$inject = ['$scope', '$http', '$modal'];
 
