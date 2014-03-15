@@ -23,6 +23,14 @@ block body
       div(ng-view)
 
   script(src='js/lib/jquery/jquery-2.0.3.min.js')
+  script
+    function changeFooterPosition() {   
+      $('.footer-menu').css('top', window.innerHeight + window.scrollY - 45 + "px");
+    }
+
+    $(document).bind('scroll', function() {
+      changeFooterPosition();
+    });
   script(src='//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js')
   script(src='bootstrap/js/bootstrap.min.js')
   script(src='js/lib/jquery/jquery.bootstrap.wizard.js')
