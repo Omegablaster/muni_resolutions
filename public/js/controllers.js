@@ -18,7 +18,14 @@ function AdminCtrl($scope, $http, $modal) {
 
 	var format = function(resolutions){
 		var output = [];
-		var getName = function(entry){return entry.name;}
+		var getName = function(entry){
+			if(entry){
+				return entry.name;
+			}else{
+				return "";
+			}
+		}
+
 		var preambToHTML = function(clause){return clause.phrase + ' ' + clause.text + ","}
 		var opToHTML = function(clause){return clause.phrase + ' ' + clause.text + " (and " + clause.subclauses.length + " subclauses),"}
 		var pream
